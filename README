@@ -1,6 +1,10 @@
-This code provides an example of how overfitting can occurr, even if a "correct" model is used, if insufficient data is at hand. 
+This code provides an example of how overfitting can occurr, even if a "correct" model is used, if insufficient data is at hand.
+The figure explained:
 
-The example is described in the publication "Ockham’s Razor in Biology: Keeping It Simple".
+In all subplots, the solid blue line shows the function f(x) = 10*sin(pi*x) + 20*sin(pi*x*2) + 2*sin(pi*x*11). The black dots represent simulated measurements from the function f(x), with added gaussian noise: 12 measurements in the upper row and 24 in the lower row. The dashed orange curves represents fits to the simulated measurements using differen trigonometric polynomials : a*sin(pi*x) in column A, a*sin(pi*x) + b*sin(pi*x*2) in column B and a*sin(pi*x) + b*sin(pi*x*2) + c*sin(pi*x*11) in column C.
+
+
+The example originates from the publication "Ockham’s Razor in Biology: Keeping It Simple".
 
 To run the code, execute the script "main.m" in matlab. Observe that the graphs produced take random data as input, and will differ slightly between consecurive runs.
 
