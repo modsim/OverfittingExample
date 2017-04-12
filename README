@@ -1,2 +1,7 @@
-This 
+This code provides an example of how overfitting can occurr, even if a "correct" model is used, if insufficient data is at hand. 
+
+The example is described in the publication "Ockham’s Razor in Biology: Keeping It Simple".
+
+To run the code, execute the script "main.m" in matlab. Observe that the graphs produced take random data as input, and will differ slightly between consecurive runs.
+
 
